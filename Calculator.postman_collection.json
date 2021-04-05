@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "d1d214a6-bd5d-402a-b629-392ceb14036f",
+		"name": "Calculator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Calculator",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/calculator/?firstNumber=14.521445667899&operation=Divide&secondNumber=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculator",
+						""
+					],
+					"query": [
+						{
+							"key": "firstNumber",
+							"value": "14.521445667899"
+						},
+						{
+							"key": "operation",
+							"value": "Divide"
+						},
+						{
+							"key": "secondNumber",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
